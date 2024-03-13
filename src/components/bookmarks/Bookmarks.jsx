@@ -2,7 +2,7 @@ import React from "react";
 
 const Bookmarks = () => {
   return (
-    <div className="w-1/3 p-5">
+    <div className="lg:w-1/3 p-5">
       {/* header  */}
       <div className="flex items-center justify-center gap-2 py-5 px-3 rounded-md  gp-2 font-bold text-xl third border-[#6047ec] bg-[#6047ec1a] border-1 ">
         <h5>Spent time on read:</h5>

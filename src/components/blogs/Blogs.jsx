@@ -10,7 +10,7 @@ const Blogs = () => {
   }, []);
   console.log(blogs);
   return (
-    <div className="w-2/3 p-5 flex flex-col gap-8">
+    <div className="lg:w-2/3 p-5 flex flex-col gap-8">
       {blogs.map((blog) => (
         <Blog key={blog.id} blog={blog} />
       ))}

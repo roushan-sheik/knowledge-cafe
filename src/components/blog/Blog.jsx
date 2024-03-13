@@ -7,7 +7,7 @@ const Blog = ({ blog }) => {
   return (
     <div>
       {/* image box  */}
-      <div className="h-[25rem] w-full object-cover rounded-md">
+      <div className="lg:h-[25rem] h-[200px]  w-full object-cover rounded-md">
         <img className="w-full rounded-md h-full" src={cover} alt="Blog Img" />
       </div>
       {/* profile box  */}
@@ -22,7 +22,7 @@ const Blog = ({ blog }) => {
             />
           </div>
           <div>
-            <h4 className="font-bold text-2xl primary cursor-pointer">
+            <h4 className="font-bold lg:text-2xl text-lg primary cursor-pointer">
               {name}
             </h4>
             <div className="flex text-base gap-2 items-center">
@@ -42,7 +42,9 @@ const Blog = ({ blog }) => {
       {/* content box  */}
       <div>
         {/* title */}
-        <h2 className="text-3xl font-bold primary py-4 mt-4">{title}</h2>
+        <h2 className="lg:text-3xl text-xl font-bold primary py-4 mt-4">
+          {title}
+        </h2>
         {/* hash tag  */}
         <div className="flex gap-3 text-lg secondary">
           {hashtags.map((tag) => {

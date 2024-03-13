@@ -3,8 +3,6 @@ import React from "react";
 const Bookmarks = ({ bookmarkData }) => {
   let time = 0;
   // update read time
- 
-
   return (
     // <div>hi</div>
     <div className="lg:w-1/3 p-5">
@@ -22,9 +20,7 @@ const Bookmarks = ({ bookmarkData }) => {
         </div>
         {/* dynamic added items  */}
         <div className="flex flex-col gap-4">
-          { bookmarkData.map( ( mark ) =>
-          {
-              time += mark.reading_time;
+          {bookmarkData.map((mark) => {
             return (
               <div key={mark?.title} className="bg-white rounded-md p-4">
                 <h4 className="font-semibold text-base primary">

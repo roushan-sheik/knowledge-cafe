@@ -46,7 +46,7 @@ const Blog = ({ blog }) => {
         {/* hash tag  */}
         <div className="flex gap-3 text-lg secondary">
           {hashtags.map((tag) => {
-            return <span>{tag}</span>;
+            return <span key={tag}>{tag}</span>;
           })}
         </div>
         {/* button  */}

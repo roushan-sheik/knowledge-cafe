@@ -42,10 +42,15 @@ const Blog = ({ blog }) => {
       {/* content box  */}
       <div>
         {/* title */}
-        <h2></h2>
+        <h2 className="text-3xl font-bold primary py-4 mt-4">{title}</h2>
         {/* hash tag  */}
+        <div className="flex gap-3 text-lg secondary">
+          {hashtags.map((tag) => {
+            return <span>{tag}</span>;
+          })}
+        </div>
         {/* button  */}
-        <button>Mark as read</button>
+        <button className="mt-6 text-lg third underline">Mark as read</button>
       </div>
     </div>
   );

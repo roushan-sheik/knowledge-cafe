@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "cover": "https://img.freepik.com/free-vector/gradient-top-view-laptop-technology-background_52683-4504.jpg?w=900&t=st=1710293254~exp=1710293854~hmac=18bec2095ea8505a77f90ffce11524798e8f02132d8240012afad64d9898feb1",
+    "title": "The Art of Programming",
+    "author_img": "https://i.ibb.co/3YKzykX/roushan-roushansheik-Rowshan-Rowshan-Sheikh-Roushan-Programmer-Rowshan.jpg",
+    "date": "2024-03-13",
+    "reading_time": 10,
+    "hashtags": ["#programming", "#coding", "#software"]
+  },
+  {
+    "id": 2,
+    "cover": "https://img.freepik.com/free-photo/external-hard-drive-laptop-arrangement_23-2149417034.jpg?t=st=1710293338~exp=1710296938~hmac=95528e5db30576b87948f65af32837aaa8de25576974a6d9c46567e7cfd25128&w=900",
+    "title": "Exploring the Universe",
+    "author_img": "https://i.ibb.co/9h0GtBc/roushan-roushansheik-Rowshan-Rowshan-Sheikh-Roushan-Programmer-Rowshan-jpg.jpg",
+    "date": "2024-03-12",
+    "reading_time": 15,
+    "hashtags": ["#space", "#cosmos", "#astronomy"]
+  },
+  {
+    "id": 3,
+    "cover": "https://img.freepik.com/free-photo/view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529359.jpg?t=st=1710293364~exp=1710296964~hmac=c1dd8cd8872cec276f65c494fe1b661d9bfd6c66fb969f7d773bdae3d4d8e25e&w=900",
+    "title": "Cooking Mastery",
+    "author_img": "https://i.ibb.co/W2rCSwb/roushan-roushansheik-Rowshan-Rowshan-Sheikh-Roushan-Programmer-Rowshan-s.png",
+    "date": "2024-03-11",
+    "reading_time": 20,
+    "hashtags": ["#cooking", "#recipes", "#chef"]
+  },
+  {
+    "id": 4,
+    "cover": "https://img.freepik.com/free-photo/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529352.jpg?t=st=1710293395~exp=1710296995~hmac=7000701a5c1933e780035f0a1be2e38113a73f37b7e7c50bdd4e6bd3b0646597&w=900",
+    "title": "Fitness Journey",
+    "author_img": "https://images.squarespace-cdn.com/content/v1/55b029d3e4b022c52efdde18/1588602918207-ADILXX2TJF3LAK5MZZV3/toledo+professional+headshots-1.jpg?format=2500w",
+    "date": "2024-03-10",
+    "reading_time": 25,
+    "hashtags": ["#fitness", "#workout", "#health"]
+  },
+  {
+    "id": 5,
+    "cover": "https://img.freepik.com/premium-photo/guy-playing-gaming-game-computer-game-club_183314-6627.jpg?w=900",
+    "title": "Nature's Beauty",
+    "author_img": "https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg?w=826&t=st=1710293139~exp=1710293739~hmac=12560d5a38033d4a8e5ddeb69a33a99ef3d447a9d4cef0a570392a2fe46fbda5",
+    "date": "2024-03-09",
+    "reading_time": 30,
+    "hashtags": ["#nature", "#environment", "#outdoors"]
+  },
+  {
+    "id": 6,
+    "cover": "https://img.freepik.com/premium-photo/attractive-young-woman-working-home-night_688382-1477.jpg?w=900",
+    "title": "History Unraveled",
+    "author_img": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg?w=826&t=st=1710293177~exp=1710293777~hmac=ade0d1bc2d67efec76592259c7ce23ee62d774bb1eaced281cc91312dc024b82",
+    "date": "2024-03-08",
+    "reading_time": 35,
+    "hashtags": ["#history", "#heritage", "#historical"]
+  }
+]

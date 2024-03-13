@@ -4,10 +4,10 @@ import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="w-[80%] mx-auto">
       {/* header  */}
       <Header />
-      <main>{children}</main>
+      <main className="flex flex-col lg:flex-row">{children}</main>
       <Footer />
     </div>
   );

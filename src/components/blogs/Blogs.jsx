@@ -8,7 +8,7 @@ const Blogs = () => {
       .then((data) => setBlogs(data));
   }, []);
   console.log(blogs);
-  return <div>Blogs</div>;
+  return <div className="w-2/3">Blogs</div>;
 };
 
 export default Blogs;

@@ -1,7 +1,11 @@
 import React from "react";
 
 const Bookmarks = ({ bookmarkData }) => {
-  let time = 0;
+  console.log(bookmarkData);
+  const totalTime = bookmarkData.reduce(
+    (acc, cur) => cur.reading_time + acc,
+    0
+  );
   // update read time
   return (
     // <div>hi</div>
@@ -9,7 +13,7 @@ const Bookmarks = ({ bookmarkData }) => {
       {/* header  */}
       <div className="flex items-center justify-center gap-2 py-5 px-3 rounded-md  gp-2 font-bold text-xl third border-[#6047ec] bg-[#6047ec1a] border-1 ">
         <h5>Spent time on read:</h5>
-        <span>{time} min</span>
+        <span>{totalTime} min</span>
       </div>
       {/* box parent  */}
       <div className="bg-[#1111110d] p-5 rounded-md mt-4">

@@ -3,12 +3,12 @@ import profile from "../../assets/images/profile.png";
 
 const Header = () => {
   return (
-    <div className="">
+    <div className=" flex justify-between items-center border-b-2 mt-8 pb-6 select-none cursor-pointer">
       <div>
-        <h2>Learning Cafe</h2>
+        <h2 className="text-2xl font-bold">Learning Cafe</h2>
       </div>
       <div>
-        <img src={profile} alt="" />
+        <img className="w-[50px] h-[50px]" src={profile} alt="" />
       </div>
     </div>
   );

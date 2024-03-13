@@ -1,17 +1,13 @@
 import React from "react";
-
+import Blogs from "./components/blogs/Blogs";
+import Bookmarks from "./components/bookmarks/Bookmarks";
+import Layout from "./components/layout/Layout";
 const App = () => {
-  const [blogs, setBlogs] = React.useState([]);
-  React.useEffect(() => {
-    fetch("data.json")
-      .then((res) => res.json())
-      .then((data) => setBlogs(data));
-  }, []);
-  console.log(blogs);
   return (
-    <div>
-      <h2>App</h2>
-    </div>
+    <Layout>
+      <Blogs />
+      <Bookmarks />
+    </Layout>
   );
 };
 
